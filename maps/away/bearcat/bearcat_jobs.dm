@@ -6,6 +6,7 @@
 	info = "Your ship has suffered a catastrophic amount of damage, leaving it dark and crippled in the depths of \
 	unexplored space. The Captain is dead, leaving you, previously the First Mate in charge. Organize what's left of \
 	your crew, and maybe you'll be able to survive long enough to be rescued."
+	whitelisted_species = list(SPECIES_HUMAN,SPECIES_IPC,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_VATGROWN,SPECIES_BOOSTER,SPECIES_TRITONIAN,SPECIES_SKRELL,SPECIES_UNATHI,SPECIES_YEOSA,SPECIES_SHELL,SPECIES_CUSTOM,SPECIES_TAJ)
 
 /datum/job/submap/bearcat_crewman
 	title = "Independant Crewman"
@@ -15,6 +16,7 @@
 	info = "Your ship has suffered a catastrophic amount of damage, leaving it dark and crippled in the depths of \
 	unexplored space. Work together with the Acting Captain and what's left of the crew, and maybe you'll be able \
 	to survive long enough to be rescued."
+	whitelisted_species = list(SPECIES_HUMAN,SPECIES_IPC,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_VATGROWN,SPECIES_BOOSTER,SPECIES_TRITONIAN,SPECIES_SKRELL,SPECIES_UNATHI,SPECIES_YEOSA,SPECIES_SHELL,SPECIES_CUSTOM,SPECIES_TAJ)
 
 #define BEARCAT_OUTFIT_JOB_NAME(job_name) ("Bearcat - Job - " + job_name)
 
